@@ -1,0 +1,21 @@
+.checkbox{
+  margin-top: 20px;
+  width: 100%;
+  &:hover{
+    background-color: rgb(250, 244, 244);
+  }
+
+}
+
+.label{
+  width: 175px;
+}
+
+.card{
+  text-align: justify;
+  > span{
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,12 @@
+.section{
+  display: flex;
+  gap: 50px;
+  > div:nth-child(1){
+    height: fit-content;
+  }
+  > div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

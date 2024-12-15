@@ -1,0 +1,36 @@
+.blockStop{
+  color: black;
+  font-size: 14px;
+  padding-top: 10px;
+  width: 120px;
+  > div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    > div{
+      height: 1px;
+      background-color: black;
+      width: 100px;
+    }
+    > img{
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
+
+.mainBlock{
+  flex-direction: row !important;
+  > div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+    border-right: 1px solid gray;
+  }
+  > div:nth-child(2){
+    padding-left: 20px;
+    display: flex;
+  }
+}
